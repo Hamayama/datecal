@@ -52,6 +52,13 @@
       time2 以降の減算する時間のタイプは、time-duration である必要があります。
 
 
+## 使用例
+1. [linseg](https://github.com/Hamayama/lineseg) モジュール の
+   [サンプルプログラム](https://github.com/Hamayama/lineseg/blob/main/sample-date-time.scm) を、
+   参照ください。  
+   (日時の範囲を設定して、勤務時間を計算するサンプルです)
+
+
 ## 環境等
 - OS
   - Windows 10 (version 21H2) (64bit)
