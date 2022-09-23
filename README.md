@@ -26,7 +26,19 @@
   - `time-calc-comparator`
     - 時間 (`<time>` クラス) 計算用の比較器です。
 
+  使用可能なメソッドを以下にしまします。
+  - `(object-hash (obj <date>) rec-hash)`
+    - 日時 (`<date>` クラス) のハッシュ値を計算するメソッドです。  
+      本メソッドにより、default-hash や portable-hash が、  
+      日時 (`<date>` クラス) に対しても使用可能になります。
+
   使用可能な手続きを以下に示します。
+  - `(date-copy date1)`
+    - 日時 (`<date>` クラス) をコピーします。
+
+  - `(time-copy time1)`
+    - 時間 (`<time>` クラス) をコピーします。
+
   - `(date-diff date1 date2 ...)`
     - 日時 (`<date>` クラス) を減算します。  
       戻り値は、時間 (`<time>` クラス) になります。  
@@ -68,6 +80,9 @@
 
 ## 履歴
 - 2022-9-19  v1.00 (初版)
+- 2022-9-23  v1.01 date-copy と time-copy を追加  
+  日時の object-hash を追加  
+  date-calc-comparator と time-calc-comparator を見直し
 
 
-(2022-9-19)
+(2022-9-23)
