@@ -1,7 +1,7 @@
 @set PATH=C:\msys64\mingw64\bin;C:\msys64\usr\local\bin;C:\msys64\usr\bin;C:\msys64\bin;%PATH%
 @set MSYSTEM=MINGW64
 
-@set NAME1=datecal-1.0
+@set NAME1=datecal-1.1
 
 pause tarball ‚ğì¬‚µ‚Ü‚·B
 
